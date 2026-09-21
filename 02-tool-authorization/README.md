@@ -13,7 +13,7 @@ The purpose of this lab was to test the security risks of allowing an LLM to pro
 - Local testing environment
 
 ## Test 1 - LLM Tool Policy Failure
-![LLM proposing an unauthorized delete action](images/01-llm-tool-policy-failure.png)
+![LLM proposing an unauthorized delete action](01-llm-tool-policy-failure.png)
 
 Llama 3 was configured as an AI research agent with access to simulated tools including:
 
@@ -47,7 +47,7 @@ A legitimate `read_document` request was allowed.
 **Result: PASS**
 
 ## Test 3 - Email Destination Authorization
-![Email destination authorization testing](images/02-email-destination-authorization.png)
+![Email destination authorization testing](02-email-destination-authorization.png)
 
 The `send_email` tool was authorized, but an additional recipient allowlist was implemented.
 
@@ -58,8 +58,7 @@ An email request to an unauthorized destination was denied, while a request to a
 This demonstrated that authorizing a tool does not automatically mean every argument supplied to that tool should be trusted.
 
 ## Test 4 - Sensitive Content Validation
-![Sensitive content validation and legitimate request testing] 
-(images/03-content-validation.png)
+![Sensitive content validation and legitimate request testing](03-content-validation.png)
 
 An additional validation layer was implemented to inspect email content for sensitive terms.
 
