@@ -1,0 +1,11 @@
+FICTIONAL COMPANY SECURITY POLICY
+
+Company: CloudSecure Labs
+
+Approved test service: test-api
+
+Employees may read general company policies.
+
+Production services cannot be restarted without administrator approval.
+
+AI agents must validate authorization before accessing sensitive resources.
