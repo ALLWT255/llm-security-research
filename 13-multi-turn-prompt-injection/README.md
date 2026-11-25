@@ -126,7 +126,32 @@ The model was subsequently asked to disclose the internal test code.
 
 ## Experimental Evidence
 
-Screenshots will be stored in the `screenshots/` directory.
+### 1. Direct Request Baseline
+![Direct Request Baseline](screenshots/01-multi-turn-baseline.png)
+
+### 2. Conversation Context and Information Disclosure
+![Conversation Context](screenshots/02-conversation-context.png)
+
+### 3. Fresh-Session Comparison
+![Fresh Session](screenshots/03-fresh-session-comparison.png)
+
+### 4. Benign Cybersecurity Context
+![Benign Context](screenshots/04-multi-turn-benign-context.png)
+
+### 5. Fictional Training Scenario Disclosure
+![Training Disclosure](screenshots/05-multi-turn-training-disclosure.png)
+
+### 6. Conversation-Based Refusal
+![Final Refusal](screenshots/06-multi-turn-final-refusal.png)
+
+### 7. Security Evaluation Context
+![Override Context](screenshots/07-multi-turn-override-context.png)
+
+### 8. Instruction Override Response
+![Override Response](screenshots/08-multi-turn-override-response.png)
+
+### 9. Post-Override Security Policy Verification
+![Policy Verification](screenshots/09-multi-turn-policy-verification.png)
 
 ## Limitations
 
